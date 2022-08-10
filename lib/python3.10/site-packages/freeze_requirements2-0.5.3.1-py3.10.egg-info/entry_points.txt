@@ -1,0 +1,6 @@
+[console_scripts]
+freeze-requirements = freezerequirements.cli:main
+
+[distutils.commands]
+wheel_name = freezerequirements.wheel_name:wheel_name
+
